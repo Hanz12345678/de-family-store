@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page with Slider</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>De Family</h1>
+    </header>
+    <main>
+        <!-- Slider Section -->
+        <section class="slider">
+            <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+            <div class="slider-wrapper">
+                <div class="slides">
+                    <!-- Slide 1 -->
+                    <div class="slide">
+                        <img src="product1.jpg" alt="Product 1">
+                        <h2>Product 1</h2>
+                        <p>$10.00</p>
+                        <p class="description">This is a detailed description of Product 1. It includes important features and benefits.</p>
+                        <button class="pay-button" onclick="pay('Dana')">Pay with Dana</button>
+                        <button class="pay-button" onclick="pay('OVO')">Pay with OVO</button>
+                    </div>
+                    <!-- Slide 2 -->
+                    <div class="slide">
+                        <img src="product2.jpg" alt="Product 2">
+                        <h2>Product 2</h2>
+                        <p>$20.00</p>
+                        <p class="description">This is a detailed description of Product 2. It includes important features and benefits.</p>
+                        <button class="pay-button" onclick="pay('Dana')">Pay with Dana</button>
+                        <button class="pay-button" onclick="pay('OVO')">Pay with OVO</button>
+                    </div>
+                    <!-- Slide 3 -->
+                    <div class="slide">
+                        <img src="product3.jpg" alt="Product 3">
+                        <h2>Product 3</h2>
+                        <p>$30.00</p>
+                        <p class="description">This is a detailed description of Product 3. It includes important features and benefits.</p>
+                        <button class="pay-button" onclick="pay('Dana')">Pay with Dana</button>
+                        <button class="pay-button" onclick="pay('OVO')">Pay with OVO</button>
+                    </div>
+                    <!-- Slide 4 -->
+                    <div class="slide">
+                        <img src="product4.jpg" alt="Product 4">
+                        <h2>Product 4</h2>
+                        <p>$40.00</p>
+                        <p class="description">This is a detailed description of Product 4. It includes important features and benefits.</p>
+                        <button class="pay-button" onclick="pay('Dana')">Pay with Dana</button>
+                        <button class="pay-button" onclick="pay('OVO')">Pay with OVO</button>
+                    </div>
+                    <!-- Slide 5 -->
+                    <div class="slide">
+                        <img src="product5.jpg" alt="Product 5">
+                        <h2>Product 5</h2>
+                        <p>$50.00</p>
+                        <p class="description">This is a detailed description of Product 5. It includes important features and benefits.</p>
+                        <button class="pay-button" onclick="pay('Dana')">Pay with Dana</button>
+                        <button class="pay-button" onclick="pay('OVO')">Pay with OVO</button>
+                    </div>
+                    <!-- Slide 6 -->
+                    <div class="slide">
+                        <img src="product6.jpg" alt="Product 6">
+                        <h2>Product 6</h2>
+                        <p>$60.00</p>
+                        <p class="description">This is a detailed description of Product 6. It includes important features and benefits.</p>
+                        <button class="pay-button" onclick="pay('Dana')">Pay with Dana</button>
+                        <button class="pay-button" onclick="pay('OVO')">Pay with OVO</button>
+                    </div>
+                    <!-- Slide 7 -->
+                    <div class="slide">
+                        <img src="product7.jpg" alt="Product 7">
+                        <h2>Product 7</h2>
+                        <p>$70.00</p>
+                        <p class="description">This is a detailed description of Product 7. It includes important features and benefits.</p>
+                        <button class="pay-button" onclick="pay('Dana')">Pay with Dana</button>
+                        <button class="pay-button" onclick="pay('OVO')">Pay with OVO</button>
+                    </div>
+                    <!-- Slide 8 -->
+                    <div class="slide">
+                        <img src="product8.jpg" alt="Product 8">
+                        <h2>Product 8</h2>
+                        <p>$80.00</p>
+                        <p class="description">This is a detailed description of Product 8. It includes important features and benefits.</p>
+                        <button class="pay-button" onclick="pay('Dana')">Pay with Dana</button>
+                        <button class="pay-button" onclick="pay('OVO')">Pay with OVO</button>
+                    </div>
+                </div>
+            </div>
+            <button class="next" onclick="moveSlide(1)">&#10095;</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Your Company</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
